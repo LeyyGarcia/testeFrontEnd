@@ -1,0 +1,50 @@
+.barralateral{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 100px;
+  background-color: #acacac;
+  border: none;
+  width:82px;
+  top: 80px;
+  z-index: 200;
+  
+}
+.imagem{
+  position: relative;
+
+}
+.duracao{
+  background-color: black;
+  color: white;
+  position:absolute;
+  bottom: 5px;
+  right: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.linkbarra{
+  height:74px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.linkbarra:hover{
+  background-color: rgb(70, 67, 67);
+}
+.linkbarra img{
+  height:24px;
+  
+  
+}
+.linkbarra div{
+  font-family: Roboto, Arial;
+  font-size: 10px;
+}
